@@ -1,0 +1,15 @@
+appId: ai.nexel.emulator
+productName: Nexel Emulator v1
+directories:
+  output: dist
+  buildResources: assets
+files:
+  - src/**/*
+  - assets/**/*
+  - package.json
+win:
+  target:
+    - target: portable
+  icon: assets/icon.png.png
+portable:
+  artifactName: Nexel-Emulator-Portable-${version}.${ext}

@@ -1,0 +1,19 @@
+{
+  "name": "nexel-emulator",
+  "version": "1.0.0",
+  "description": "Nexel Emulator v1",
+  "main": "src/main.js",
+  "author": "Nexel",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win portable",
+    "dist:installer": "electron-builder --win nsis"
+  },
+  "dependencies": {
+    "node-machine-id": "^1.1.12"
+  },
+  "devDependencies": {
+    "electron": "^32.1.2",
+    "electron-builder": "^25.1.8"
+  }
+}
